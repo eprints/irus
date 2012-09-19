@@ -45,11 +45,11 @@ PIRUS 'PUSH' implementation
 
     Compatibility fixes for 3.2.
 
-    1.01
+    1.01 Tim Brody <tdb2@ecs.soton.ac.uk>
 
     Fixed reference to 'jtitle' instead of 'publication'
 
-    1.00
+    1.00 Tim Brody <tdb2@ecs.soton.ac.uk>
 
     Initial version
 
