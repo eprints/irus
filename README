@@ -41,10 +41,14 @@ PIRUS 'PUSH' implementation
             - eprint.issue - publication issue
 
   Changes
-	1.03 Tim Brody <tdb2@ecs.soton.ac.uk>
+	1.04 Tim Brody <tdb2@ecs.soton.ac.uk>
 
 	Set svc_format to mime_type (was commented out???)
 	Set svc_dat to the requested URL (works only for live)
+
+	1.03 ???
+
+	???
 
     1.02 Justin Bradley <jb4@ecs.soton.ac.uk>
 
