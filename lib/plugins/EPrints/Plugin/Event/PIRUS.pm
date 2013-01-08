@@ -60,7 +60,7 @@ sub replay
 
 sub log
 {
-	my( $self, $access ) = @_;
+	my( $self, $access, $request_url ) = @_;
 
 	my $repo = $self->{session};
 
@@ -81,10 +81,10 @@ sub log
 			$access->value( "referent_id" ),
 		);
 
-	### my $mime_type = $doc->exists_and_set( "mime_type" ) ?
-	###		$doc->value( "mime_type" ) :
-	###		$doc->value( "format" );
-	my $mime_type = $doc->value( "format" );
+	my $mime_type = $doc->exists_and_set( "mime_type" ) ?
+			$doc->value( "mime_type" ) :
+			$doc->value( "format" );
+#	my $mime_type = $doc->value( "format" );
 
 	$url->query_form(
 		url_ver => "Z39.88-2004",
@@ -94,6 +94,7 @@ sub log
 		'rft.artnum' => $artnum,
 		svc_format => $mime_type,
 		rfr_id => $repo->config( "host" ),
+		svc_dat => $request_url,
 	);
 
 	my $ua = $repo->config( "pirus", "ua" );

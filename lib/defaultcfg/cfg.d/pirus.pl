@@ -89,7 +89,7 @@ $c->add_dataset_trigger( 'access', EPrints::Const::EP_TRIGGER_CREATED, sub {
 
 	my $plugin = $repo->plugin( "Event::PIRUS" );
 
-	my $r = $plugin->log( $access );
+	my $r = $plugin->log( $access, $repo->current_url( host => 1 ) );
 
 	if( defined $r && !$r->is_success )
 	{
