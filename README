@@ -41,6 +41,13 @@ PIRUS 'PUSH' implementation
             - eprint.issue - publication issue
 
   Changes
+
+	1.06 Justin Bradley <jb4@ecs.soton.ac.uk>
+
+		Perl syntax bug Fix.
+
+	1.05 Sebastien Francois <sf2@ecs.soton.ac.uk>
+
 	1.04 Tim Brody <tdb2@ecs.soton.ac.uk>
 
 	Set svc_format to mime_type (was commented out???)
@@ -48,17 +55,15 @@ PIRUS 'PUSH' implementation
 
 	1.03 ???
 
-	???
+	1.02 Justin Bradley <jb4@ecs.soton.ac.uk>
 
-    1.02 Justin Bradley <jb4@ecs.soton.ac.uk>
+		Compatibility fixes for 3.2.
 
-    Compatibility fixes for 3.2.
+	1.01 Tim Brody <tdb2@ecs.soton.ac.uk>
 
-    1.01 Tim Brody <tdb2@ecs.soton.ac.uk>
+		Fixed reference to 'jtitle' instead of 'publication'
 
-    Fixed reference to 'jtitle' instead of 'publication'
+	1.00 Tim Brody <tdb2@ecs.soton.ac.uk>
 
-    1.00 Tim Brody <tdb2@ecs.soton.ac.uk>
-
-    Initial version
+		Initial version
 
