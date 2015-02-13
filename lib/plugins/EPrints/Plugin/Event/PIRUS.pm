@@ -6,6 +6,10 @@ our $VERSION = v1.02;
 
 use strict;
 
+# sf2 / Conform to 2014 guidelines:
+# - removed svc_format (mime type)
+# - added support for referring url's (rfr_dat)
+
 # borrowed from EPrints 3.3's EPrints::OpenArchives::archive_id
 sub _archive_id
 {
@@ -81,21 +85,22 @@ sub log
 			$access->value( "referent_id" ),
 		);
 
-	my $mime_type = $doc->exists_and_set( "mime_type" ) ?
-			$doc->value( "mime_type" ) :
-			$doc->value( "format" );
-#	my $mime_type = $doc->value( "format" );
-
-	$url->query_form(
+	my %qf_params = (
 		url_ver => "Z39.88-2004",
 		url_tim => $url_tim,
 		req_id => "urn:ip:".$access->value( "requester_id" ),
 		req_dat => $access->value( "requester_user_agent" ),
 		'rft.artnum' => $artnum,
-		svc_format => $mime_type,
 		rfr_id => $repo->config( "host" ),
 		svc_dat => $request_url,
 	);
+	
+	if( $access->is_set( "referring_entity_id" ) )
+	{
+		$qf_params{rfr_dat} = $access->value( "referring_entity_id" );
+	}
+	
+	$url->query_form( %qf_params );
 
 	my $ua = $repo->config( "pirus", "ua" );
 
