@@ -47,6 +47,10 @@ Or:
 
 =head2 Changes
 
+1.03 Alan Stiles <orcid.org/0000-0003-3343-1088>
+
+Amended tracker destination URL for Jisc address
+
 1.02 Justin Bradley <jb4@ecs.soton.ac.uk>
 
 Compatibility fixes for 3.2.
@@ -64,9 +68,8 @@ Initial version
 require LWP::UserAgent;
 require LWP::ConnCache;
 
-# modify the following URL to the PIRUS tracker location
-#$c->{pirus}->{tracker} = "http://cclibweb-4.dmz.cranfield.ac.uk/tracker/";
-$c->{pirus}->{tracker} = "http://www.jusp.mimas.ac.uk/counter/";
+# ensure the following URL goes to the PIRUS tracker location
+$c->{pirus}->{tracker} = "https://jusp.jisc.ac.uk/counter/";
 
 # you may want to revise the settings for the user agent e.g. increase or
 # decrease the network timeout
