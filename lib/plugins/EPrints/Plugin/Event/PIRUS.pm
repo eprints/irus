@@ -66,8 +66,6 @@ sub log
 
 	my $repo = $self->{session};
 
-	return if $access->value( "service_type_id" ) ne "?fulltext=yes";
-
 	my $url = URI->new(
 		$repo->config( "pirus", "tracker" )
 	);
