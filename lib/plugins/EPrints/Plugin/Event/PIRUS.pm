@@ -1,14 +1,13 @@
 package EPrints::Plugin::Event::PIRUS;
 
-our $VERSION = v1.02;
+our $VERSION = v1.1.0;
 
 @ISA = qw( EPrints::Plugin::Event );
 
 use strict;
 
-# sf2 / Conform to 2014 guidelines:
-# - removed svc_format (mime type)
-# - added support for referring url's (rfr_dat)
+# @jesusbagpuss
+# Counter v5 - send data about abstract page views (invesitgations) as well as downloads
 
 # borrowed from EPrints 3.3's EPrints::OpenArchives::archive_id
 sub _archive_id
@@ -34,7 +33,6 @@ sub replay
 	local $SIG{__DIE__};
 	eval { $repo->dataset( "access" )->search(filters => [
 				{ meta_fields => [qw( accessid )], value => "$accessid..", },
-				{ meta_fields => [qw( service_type_id )], value => "?fulltext=yes", match => "EX", },
 			],
 			limit => 1000, # lets not go crazy ...
 	)->map(sub {
@@ -70,8 +68,6 @@ sub log
 
 	return if $access->value( "service_type_id" ) ne "?fulltext=yes";
 
-	my $doc = $repo->dataset( "document" )->dataobj( $access->value( "referent_docid" ) );
-
 	my $url = URI->new(
 		$repo->config( "pirus", "tracker" )
 	);
@@ -80,10 +76,9 @@ sub log
 	$url_tim =~ s/^(\S+) (\S+)$/$1T$2Z/;
 
 	my $artnum = EPrints::OpenArchives::to_oai_identifier(
-		###	EPrints::OpenArchives::archive_id( $repo ),
-			_archive_id( $repo ),
-			$access->value( "referent_id" ),
-		);
+		_archive_id( $repo ),
+		$access->value( "referent_id" ),
+	);
 
 	my %qf_params = (
 		url_ver => "Z39.88-2004",
@@ -98,6 +93,12 @@ sub log
 	if( $access->is_set( "referring_entity_id" ) )
 	{
 		$qf_params{rfr_dat} = $access->value( "referring_entity_id" );
+	}
+
+	# Counter v5 is interested in summary page views as well as downloads.
+	if( $access->is_set( "service_type_id" ) )
+	{
+		$qf_params{rft_dat} = $access->value( "service_type_id" ) eq "?fulltext=yes" ? "Request" : "Investigation";
 	}
 	
 	$url->query_form( %qf_params );
