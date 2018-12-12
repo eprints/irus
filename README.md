@@ -2,14 +2,15 @@
 
 Provide data for [COUNTER R5](https://www.projectcounter.org/code-of-practice-five-sections/abstract/) compliant usage statistics.
 
-    Copyright 2012 University of Southampton
+Copyright 2012 University of Southampton
 
-    Released to the public domain (or CC0 depending on your juristiction).
+Released to the public domain (or CC0 depending on your juristiction).
 
-    Updated 2018 [John Salter](https://github.com/jesusbagpuss) on behalf of White Rose Libraries and IRUS-UK CAG.
-    With thanks to [Alan Stiles](https://github.com/Ainmhidh) (Open University) and [Paul Needham](https://orcid.org/0000-0001-9771-3469) (Cranfield University)
+Updated 2018 [John Salter](https://github.com/jesusbagpuss) on behalf of White Rose Libraries and IRUS-UK CAG.
 
-    USE OF THIS EXTENSION IS ENTIRELY AT YOUR OWN RISK
+With thanks to [Alan Stiles](https://github.com/Ainmhidh) (Open University) and [Paul Needham](https://orcid.org/0000-0001-9771-3469) (Cranfield University)
+
+__USE OF THIS EXTENSION IS ENTIRELY AT YOUR OWN RISK__
 
 ## Installation
 
