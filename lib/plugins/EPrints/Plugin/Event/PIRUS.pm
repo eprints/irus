@@ -84,7 +84,7 @@ sub log
 		req_id => "urn:ip:".$access->value( "requester_id" ),
 		req_dat => $access->value( "requester_user_agent" ),
 		'rft.artnum' => $artnum,
-		rfr_id => $repo->config( "host" ),
+		rfr_id => $repo->config( "host" ) ? $repo->config( "host" ) : $repo->config( "securehost" ),
 		svc_dat => $request_url,
 	);
 	
