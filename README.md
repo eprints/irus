@@ -2,23 +2,14 @@
 
 Provide data for [COUNTER R5](https://www.projectcounter.org/code-of-practice-five-sections/abstract/) compliant usage statistics.
 
-Copyright 2012 University of Southampton
-
-Released to the public domain (or CC0 depending on your juristiction).
-
-Updated 2018 [John Salter](https://github.com/jesusbagpuss) on behalf of White Rose Libraries and IRUS-UK CAG.
-
-With thanks to [Alan Stiles](https://github.com/Ainmhidh) (Open University) and [Paul Needham](https://orcid.org/0000-0001-9771-3469) (Cranfield University)
-
-__USE OF THIS EXTENSION IS ENTIRELY AT YOUR OWN RISK__
-
 ## Installation
 
-This EPrints plugin should be available from the [Eprints Bazaar](https://bazaar.eprints.org/].
+This EPrints plugin should be available from the [EPrints Bazaar](https://bazaar.eprints.org/), 
+and can be installed from within your repository.
 
 To manually install it, you can use the GitHub repository and the [Gitaar](https://github.com/eprintsug/gitaar) tool.
 
-## Testing / use on development servers
+### Testing / use on development servers
 
 In the file `lib/cfg.d/pirus.pl` there is a URL for a test COUNTER server in the comments.
 
@@ -26,7 +17,6 @@ In the file `lib/cfg.d/pirus.pl` there is a URL for a test COUNTER server in the
 
 if you are testing the plugin, or have it installed on a test/development machine, you can add the configuration
 above to a file in the archive specific configuration e.g.  `~/archives/ARCHIVEID/cfg/cfg.d/z_pirus.pl`.
-
 
 ## Implementation
 
@@ -86,3 +76,14 @@ Fixed reference to 'jtitle' instead of 'publication'
 
 Initial version
 
+## Reuse / licence information
+
+Copyright 2012 University of Southampton
+
+Released to the public domain (or CC0 depending on your juristiction).
+
+Updated 2018 [John Salter](https://github.com/jesusbagpuss) on behalf of White Rose Libraries and IRUS-UK CAG.
+
+With thanks to [Alan Stiles](https://github.com/Ainmhidh) (Open University) and [Paul Needham](https://orcid.org/0000-0001-9771-3469) (Cranfield University)
+
+__USE OF THIS EXTENSION IS ENTIRELY AT YOUR OWN RISK__
