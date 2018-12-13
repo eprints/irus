@@ -38,6 +38,20 @@ The data transferred are:
 - `rfr_dat` - the HTTP referrer (when set)
 - `rft_dat` - whether it was a full-text download, or a summary page access.
 
+## OAI-PMH IRUS / ORCID set
+
+The file `lib/cfg.d/z_oai_irus.pl.example` contains an example configuration for an OAI-PMH custom set `irus-orcid` 
+that will include items which have an ORCID defined for a creator. It is based on the standard EPrints implementation
+for ORCIDs.
+
+To activate this set, copy the file into `archives/ARCHIVEID/cfg/cfg.d/`, but without the `.example` on the end of the filename.
+Reload the webserver, and test using the URL:  
+`https://YOUR-SERVER-NAME/cgi/oai2?verb=ListIdentifiers&metadataPrefix=oai_dc&set=irus-orcid`
+
+The default oai_dc metadata profile does not contain ORCIDs, but if you have a metadata profile that can include them 
+(and has been confiigured to include them) e.g. RIOXX, then use that, and a 'ListRecords' request e.g.  
+`https://YOUR-SERVER-NAME/cgi/oai2?verb=ListRecords&metadataPrefix=rioxx&set=irus-orcid`
+
 
 ## Changes
  
