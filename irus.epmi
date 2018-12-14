@@ -66,4 +66,5 @@
   <description>The aim of the PIRUS2 Project is to enable publishers, repositories and other organizations to generate and share authoritative, trustworthy usage statistics for the individual articles and other items that they host. v1.1.0 is COUNTER R5 compliant.</description>
   <requirements>Requires 3.2.3 for TRIGGER and COUNTER robots list.</requirements>
   <home_page>http://github.com/eprintsug/irus</home_page>
+  <icon>images/epm/icon_irus.png</icon>
 </epm>
