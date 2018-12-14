@@ -2,12 +2,21 @@
 
 Provide data for [COUNTER R5](https://www.projectcounter.org/code-of-practice-five-sections/abstract/) compliant usage statistics.
 
+By default this package is configured to send data to the IRUS-UK tracker.
+
 ## Installation
 
 This EPrints plugin should be available from the [EPrints Bazaar](https://bazaar.eprints.org/), 
 and can be installed from within your repository.
 
 To manually install it, you can use the GitHub repository and the [Gitaar](https://github.com/eprintsug/gitaar) tool.
+
+### Sending data to other trackers
+
+If you need to send data to a tracker other than [IRUS-UK](https://www.jisc.ac.uk/irus), please add
+the following to a file in the archive specific configuration e.g. `~/archives/ARCHIVEID/cfg/cfg.d/z_pirus.pl`
+
+`$c->{pirus}->{tracker} = "https://THE-URL-OF-THE-OTHER/tracker/";`
 
 ### Testing / use on development servers
 
