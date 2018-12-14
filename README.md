@@ -64,7 +64,7 @@ The default oai_dc metadata profile does not contain ORCIDs, but if you have a m
 
 ## Changes
  
-* 1.1.0 John Salter <J.Salter@leeds.ac.uk>
+* 1.2.0 John Salter <J.Salter@leeds.ac.uk>
 
 Update to COUNTER R5:
 
@@ -72,6 +72,7 @@ Set `rft_dat` to `Request` (for fulltext downloads)
 
 Set `rft_dat` to `Investigation` (for summary page views)
 
+* 1.1.0 ???
 
 * 1.06 Justin Bradley <jb4@ecs.soton.ac.uk>
 
