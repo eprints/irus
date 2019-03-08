@@ -1,0 +1,6 @@
+# Example code to add a custom OAI-PMH set with ORCIDs
+# This is based on the standard ORCID implementation
+# To enable this set, copy this example file to ~/[ARCHIVEID]/cfg/cfg.d/z_oai_irus.pl
+push @{$c->{oai}->{custom_sets}}, { spec => "irus-orcid", name => "IRUS: Records with ORCIDs", filters => [
+       { meta_fields => [ "creators_orcid" ], match => "SET", },
+] };

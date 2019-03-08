@@ -1,33 +1,60 @@
 <?xml version='1.0' encoding='utf-8'?>
-<epm id='http://template.ulcc.ac.uk/id/epm/irus' xmlns='http://eprints.org/ep2/data/2.0'>
+<epm xmlns='http://eprints.org/ep2/data/2.0' id='http://test.eprints/id/epm/irus'>
   <epmid>irus</epmid>
+  <uri>http://test.eprints/id/epm/irus</uri>
   <documents>
     <document>
       <files>
         <file>
-          <datasetid>document</datasetid>
           <filename>cfg.d/pirus.pl</filename>
-          <mime_type>text/plain</mime_type>
-          <hash>93d6a5ac1693c82df96cd441d6c317a2</hash>
+          <mime_type>inode/symlink</mime_type>
+          <hash>5d4d0f547805ca0e8462d8452fba7651</hash>
           <hash_type>MD5</hash_type>
-          <filesize>2750</filesize>
+          <filesize>2882</filesize>
         </file>
         <file>
-          <datasetid>document</datasetid>
-          <filename>plugins/EPrints/Plugin/Event/PIRUS.pm</filename>
-          <mime_type>text/plain</mime_type>
-          <hash>fd59ec89c176464eb2378893436b5026</hash>
+          <filename>cfg.d/z_oai_irus.pl.example</filename>
+          <mime_type>inode/symlink</mime_type>
+          <hash>d9ea2013033ac4abcf30e10548c1d1ea</hash>
           <hash_type>MD5</hash_type>
-          <filesize>2495</filesize>
+          <filesize>372</filesize>
+        </file>
+        <file>
+          <filename>plugins/EPrints/Plugin/Event/PIRUS.pm</filename>
+          <mime_type>inode/symlink</mime_type>
+          <hash>967694d8b543016cfe1c4ab32a8728fd</hash>
+          <hash_type>MD5</hash_type>
+          <filesize>2473</filesize>
+        </file>
+        <file>
+          <filename>static/images/epm/icon_irus.png</filename>
+          <mime_type>inode/symlink</mime_type>
+          <hash>9bfaeac1813aba0bf6b046521d99bf3d</hash>
+          <hash_type>MD5</hash_type>
+          <filesize>72736</filesize>
         </file>
       </files>
-      <mime_type>text/plain</mime_type>
-      <format>text</format>
-      <main>plugins/EPrints/Plugin/Event/PIRUS.pm</main>
+      <mime_type>inode/symlink</mime_type>
+      <format>other</format>
+      <main>static/images/epm/icon_irus.png</main>
       <content>install</content>
     </document>
+    <document>
+      <files>
+        <file>
+          <filename>static/images/epm/icon_irus.png</filename>
+          <mime_type>inode/symlink</mime_type>
+          <hash>9bfaeac1813aba0bf6b046521d99bf3d</hash>
+          <hash_type>MD5</hash_type>
+          <filesize>72736</filesize>
+        </file>
+      </files>
+      <format>image</format>
+      <main>static/images/epm/icon_irus.png</main>
+      <content>coverimage</content>
+    </document>
   </documents>
-  <version>1.1.0</version>
+  <version>1.2.0</version>
   <creators>
     <item>
       <name>
@@ -47,10 +74,18 @@
         <given>Sebastien</given>
       </name>
     </item>
+    <item>
+      <name>
+        <family>Salter</family>
+        <given>John</given>
+      </name>
+      <id>https://orcid.org/0000-0002-8611-8266</id>
+    </item>
   </creators>
-  <datestamp>2015-02-13 11:31:26</datestamp>
+  <datestamp>2018-09-06 16:15:18</datestamp>
   <title>PIRUS/IRUS-UK PUSH Implementation</title>
-  <description>The aim of the PIRUS2 Project is to enable publishers, repositories and other organizations to generate and share authoritative, trustworthy usage statistics for the individual articles and other items that they host. v1.05 conforms to 2014 Guidelines.</description>
+  <description>The aim of the PIRUS2 Project is to enable publishers, repositories and other organizations to generate and share authoritative, trustworthy usage statistics for the individual articles and other items that they host. v1.1.0 is COUNTER R5 compliant.</description>
   <requirements>Requires 3.2.3 for TRIGGER and COUNTER robots list.</requirements>
   <home_page>http://github.com/eprintsug/irus</home_page>
+  <icon>images/epm/icon_irus.png</icon>
 </epm>
