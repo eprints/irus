@@ -1,5 +1,7 @@
 # PIRUS 'PUSH' implementation
 
+>If you are looking for a version of this plugin that *does* have the latest IRUS tracker URL, but *doesn't* have the counter R5 updates see https://github.com/eprintsug/irus/tree/irus-jisc-ac-uk
+
 Provide data for [COUNTER R5](https://www.projectcounter.org/code-of-practice-five-sections/abstract/) compliant usage statistics.
 
 By default this package is configured to send data to the IRUS-UK tracker.
