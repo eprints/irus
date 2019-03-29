@@ -1,5 +1,7 @@
 # PIRUS 'PUSH' implementation
 
+UPDATE March 2019: The default URL used by this code has been updated to https://irus.jisc.ac.uk/counter/.
+
 Provide data for [COUNTER R5](https://www.projectcounter.org/code-of-practice-five-sections/abstract/) compliant usage statistics.
 
 By default this package is configured to send data to the IRUS-UK tracker.
@@ -64,6 +66,10 @@ The default oai_dc metadata profile does not contain ORCIDs, but if you have a m
 
 ## Changes
  
+* 1.2.1 John Salter <J.Salter@leeds.ac.uk>
+
+Update to default tracker URL.
+
 * 1.2.0 John Salter <J.Salter@leeds.ac.uk>
 
 Update to COUNTER R5:

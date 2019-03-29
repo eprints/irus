@@ -7,11 +7,27 @@
       <files>
         <file>
           <datasetid>document</datasetid>
+          <filename>cfg.d/z_oai_irus.pl.example</filename>
+          <mime_type>inode/symlink</mime_type>
+          <hash>d9ea2013033ac4abcf30e10548c1d1ea</hash>
+          <hash_type>MD5</hash_type>
+          <filesize>372</filesize>
+          <data encoding='base64'>IyBFeGFtcGxlIGNvZGUgdG8gYWRkIGEgY3VzdG9tIE9BSS1QTUggc2V0IHdpdGggT1JDSURzCiMg
+VGhpcyBpcyBiYXNlZCBvbiB0aGUgc3RhbmRhcmQgT1JDSUQgaW1wbGVtZW50YXRpb24KIyBUbyBl
+bmFibGUgdGhpcyBzZXQsIGNvcHkgdGhpcyBleGFtcGxlIGZpbGUgdG8gfi9bQVJDSElWRUlEXS9j
+ZmcvY2ZnLmQvel9vYWlfaXJ1cy5wbApwdXNoIEB7JGMtPntvYWl9LT57Y3VzdG9tX3NldHN9fSwg
+eyBzcGVjID0+ICJpcnVzLW9yY2lkIiwgbmFtZSA9PiAiSVJVUzogUmVjb3JkcyB3aXRoIE9SQ0lE
+cyIsIGZpbHRlcnMgPT4gWwogICAgICAgeyBtZXRhX2ZpZWxkcyA9PiBbICJjcmVhdG9yc19vcmNp
+ZCIgXSwgbWF0Y2ggPT4gIlNFVCIsIH0sCl0gfTsK
+</data>
+        </file>
+        <file>
+          <datasetid>document</datasetid>
           <filename>cfg.d/pirus.pl</filename>
           <mime_type>inode/symlink</mime_type>
-          <hash>5d4d0f547805ca0e8462d8452fba7651</hash>
+          <hash>8ce08e43a4ff811693797650900b37a7</hash>
           <hash_type>MD5</hash_type>
-          <filesize>2882</filesize>
+          <filesize>2883</filesize>
           <data encoding='base64'>PXBvZAoKPWhlYWQxIFBJUlVTICdQVVNIJyBpbXBsZW1lbnRhdGlvbgoKUHJvdmlkZSBkYXRhIGZv
 ciBDT1VOVEVSLWNvbXBsaWFudCB1c2FnZSBzdGF0aXN0aWNzLgoKQ29weXJpZ2h0IDIwMTIgVW5p
 dmVyc2l0eSBvZiBTb3V0aGFtcHRvbgoKUmVsZWFzZWQgdG8gdGhlIHB1YmxpYyBkb21haW4gKG9y
@@ -41,44 +57,28 @@ bi5hYy51az4KCkZpeGVkIHJlZmVyZW5jZSB0byAnanRpdGxlJyBpbnN0ZWFkIG9mICdwdWJsaWNh
 dGlvbicKCjEuMDAgVGltIEJyb2R5IDx0ZGIyQGVjcy5zb3Rvbi5hYy51az4KCkluaXRpYWwgdmVy
 c2lvbgoKPWN1dAoKcmVxdWlyZSBMV1A6OlVzZXJBZ2VudDsKcmVxdWlyZSBMV1A6OkNvbm5DYWNo
 ZTsKCiMgbW9kaWZ5IHRoZSBmb2xsb3dpbmcgVVJMIHRvIHRoZSBQSVJVUyB0cmFja2VyIGxvY2F0
-aW9uCiRjLT57cGlydXN9LT57dHJhY2tlcn0gPSAiaHR0cHM6Ly9qdXNwLmppc2MuYWMudWsvY291
+aW9uCiRjLT57cGlydXN9LT57dHJhY2tlcn0gPSAiaHR0cHM6Ly9pcnVzLmppc2MuYWMudWsvY291
 bnRlci8iOwojIGR1cmluZyB0ZXN0aW5nIChvciBvbiBhIHRlc3Qgc2VydmVyKSwgdGhlIGZvbGxv
-d2luZyBzaG91bGQgYmUgdXNlZDoKIyRjLT57cGlydXN9LT57dHJhY2tlcn0gPSAiaHR0cHM6Ly9q
-dXNwLmppc2MuYWMudWsvdGVzdGNvdW50ZXIvIjsKCiMgeW91IG1heSB3YW50IHRvIHJldmlzZSB0
-aGUgc2V0dGluZ3MgZm9yIHRoZSB1c2VyIGFnZW50IGUuZy4gaW5jcmVhc2Ugb3IKIyBkZWNyZWFz
-ZSB0aGUgbmV0d29yayB0aW1lb3V0CiRjLT57cGlydXN9LT57dWF9ID0gTFdQOjpVc2VyQWdlbnQt
-Pm5ldygKCWZyb20gPT4gJGMtPnthZG1pbmVtYWlsfSwKCWFnZW50ID0+ICRjLT57dmVyc2lvbn0s
-Cgl0aW1lb3V0ID0+IDIwLAoJY29ubl9jYWNoZSA9PiBMV1A6OkNvbm5DYWNoZS0+bmV3LAopOwoK
-JGMtPntwbHVnaW5zfS0+eyJFdmVudDo6UElSVVMifS0+e3BhcmFtc30tPntkaXNhYmxlfSA9IDA7
-CgojIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMj
-IyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMKCiRjLT5hZGRfZGF0YXNldF90cmlnZ2VyKCAnYWNjZXNz
-JywgRVByaW50czo6Q29uc3Q6OkVQX1RSSUdHRVJfQ1JFQVRFRCwgc3ViIHsKCW15KCAlYXJncyAp
-ID0gQF87CgoJbXkgJHJlcG8gPSAkYXJnc3tyZXBvc2l0b3J5fTsKCW15ICRhY2Nlc3MgPSAkYXJn
-c3tkYXRhb2JqfTsKCglteSAkcGx1Z2luID0gJHJlcG8tPnBsdWdpbiggIkV2ZW50OjpQSVJVUyIg
-KTsKCglteSAkciA9ICRwbHVnaW4tPmxvZyggJGFjY2VzcywgJHJlcG8tPmN1cnJlbnRfdXJsKCBo
-b3N0ID0+IDEgKSApOwoKCWlmKCBkZWZpbmVkICRyICYmICEkci0+aXNfc3VjY2VzcyApCgl7CgkJ
-bXkgJGV2ZW50ID0gJHJlcG8tPmRhdGFzZXQoICJldmVudF9xdWV1ZSIgKS0+ZGF0YW9ial9jbGFz
-cy0+Y3JlYXRlX3VuaXF1ZSggJHJlcG8sIHsKCQkJZXZlbnRxdWV1ZWlkID0+IERpZ2VzdDo6TUQ1
-OjptZDVfaGV4KCAiRXZlbnQ6OlBJUlVTOjpyZXBsYXkiICksCgkJCXBsdWdpbmlkID0+ICJFdmVu
-dDo6UElSVVMiLAoJCQlhY3Rpb24gPT4gInJlcGxheSIsCgkJfSk7CgkJaWYoIGRlZmluZWQgJGV2
-ZW50ICkKCQl7CgkJCSRldmVudC0+c2V0X3ZhbHVlKCAicGFyYW1zIiwgWyRhY2Nlc3MtPmlkXSAp
-OwoJCQkkZXZlbnQtPmNvbW1pdDsKCQl9Cgl9Cn0pOwo=
-</data>
-        </file>
-        <file>
-          <datasetid>document</datasetid>
-          <filename>cfg.d/z_oai_irus.pl.example</filename>
-          <mime_type>inode/symlink</mime_type>
-          <hash>d9ea2013033ac4abcf30e10548c1d1ea</hash>
-          <hash_type>MD5</hash_type>
-          <filesize>372</filesize>
-          <data encoding='base64'>IyBFeGFtcGxlIGNvZGUgdG8gYWRkIGEgY3VzdG9tIE9BSS1QTUggc2V0IHdpdGggT1JDSURzCiMg
-VGhpcyBpcyBiYXNlZCBvbiB0aGUgc3RhbmRhcmQgT1JDSUQgaW1wbGVtZW50YXRpb24KIyBUbyBl
-bmFibGUgdGhpcyBzZXQsIGNvcHkgdGhpcyBleGFtcGxlIGZpbGUgdG8gfi9bQVJDSElWRUlEXS9j
-ZmcvY2ZnLmQvel9vYWlfaXJ1cy5wbApwdXNoIEB7JGMtPntvYWl9LT57Y3VzdG9tX3NldHN9fSwg
-eyBzcGVjID0+ICJpcnVzLW9yY2lkIiwgbmFtZSA9PiAiSVJVUzogUmVjb3JkcyB3aXRoIE9SQ0lE
-cyIsIGZpbHRlcnMgPT4gWwogICAgICAgeyBtZXRhX2ZpZWxkcyA9PiBbICJjcmVhdG9yc19vcmNp
-ZCIgXSwgbWF0Y2ggPT4gIlNFVCIsIH0sCl0gfTsK
+d2luZyBzaG91bGQgYmUgdXNlZDoKIyRjLT57cGlydXN9LT57dHJhY2tlcn0gPSAiaHR0cHM6Ly9p
+cnVzLmppc2MuYWMudWsvY291bnRlci90ZXN0LyI7CgojIHlvdSBtYXkgd2FudCB0byByZXZpc2Ug
+dGhlIHNldHRpbmdzIGZvciB0aGUgdXNlciBhZ2VudCBlLmcuIGluY3JlYXNlIG9yCiMgZGVjcmVh
+c2UgdGhlIG5ldHdvcmsgdGltZW91dAokYy0+e3BpcnVzfS0+e3VhfSA9IExXUDo6VXNlckFnZW50
+LT5uZXcoCglmcm9tID0+ICRjLT57YWRtaW5lbWFpbH0sCglhZ2VudCA9PiAkYy0+e3ZlcnNpb259
+LAoJdGltZW91dCA9PiAyMCwKCWNvbm5fY2FjaGUgPT4gTFdQOjpDb25uQ2FjaGUtPm5ldywKKTsK
+CiRjLT57cGx1Z2luc30tPnsiRXZlbnQ6OlBJUlVTIn0tPntwYXJhbXN9LT57ZGlzYWJsZX0gPSAw
+OwoKIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMj
+IyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjCgokYy0+YWRkX2RhdGFzZXRfdHJpZ2dlciggJ2FjY2Vz
+cycsIEVQcmludHM6OkNvbnN0OjpFUF9UUklHR0VSX0NSRUFURUQsIHN1YiB7CglteSggJWFyZ3Mg
+KSA9IEBfOwoKCW15ICRyZXBvID0gJGFyZ3N7cmVwb3NpdG9yeX07CglteSAkYWNjZXNzID0gJGFy
+Z3N7ZGF0YW9ian07CgoJbXkgJHBsdWdpbiA9ICRyZXBvLT5wbHVnaW4oICJFdmVudDo6UElSVVMi
+ICk7CgoJbXkgJHIgPSAkcGx1Z2luLT5sb2coICRhY2Nlc3MsICRyZXBvLT5jdXJyZW50X3VybCgg
+aG9zdCA9PiAxICkgKTsKCglpZiggZGVmaW5lZCAkciAmJiAhJHItPmlzX3N1Y2Nlc3MgKQoJewoJ
+CW15ICRldmVudCA9ICRyZXBvLT5kYXRhc2V0KCAiZXZlbnRfcXVldWUiICktPmRhdGFvYmpfY2xh
+c3MtPmNyZWF0ZV91bmlxdWUoICRyZXBvLCB7CgkJCWV2ZW50cXVldWVpZCA9PiBEaWdlc3Q6Ok1E
+NTo6bWQ1X2hleCggIkV2ZW50OjpQSVJVUzo6cmVwbGF5IiApLAoJCQlwbHVnaW5pZCA9PiAiRXZl
+bnQ6OlBJUlVTIiwKCQkJYWN0aW9uID0+ICJyZXBsYXkiLAoJCX0pOwoJCWlmKCBkZWZpbmVkICRl
+dmVudCApCgkJewoJCQkkZXZlbnQtPnNldF92YWx1ZSggInBhcmFtcyIsIFskYWNjZXNzLT5pZF0g
+KTsKCQkJJGV2ZW50LT5jb21taXQ7CgkJfQoJfQp9KTsK
 </data>
         </file>
         <file>
@@ -2722,7 +2722,7 @@ rkJggg==
       <content>coverimage</content>
     </document>
   </documents>
-  <version>1.2.0</version>
+  <version>1.2.1</version>
   <creators>
     <item>
       <name>
@@ -2750,9 +2750,9 @@ rkJggg==
       <id>https://orcid.org/0000-0002-8611-8266</id>
     </item>
   </creators>
-  <datestamp>2018-09-06 16:15:18</datestamp>
+  <datestamp>2019-03-29 12:55:09</datestamp>
   <title>PIRUS/IRUS-UK PUSH Implementation</title>
-  <description>The aim of the PIRUS2 Project is to enable publishers, repositories and other organizations to generate and share authoritative, trustworthy usage statistics for the individual articles and other items that they host. v1.1.0 is COUNTER R5 compliant.</description>
+  <description>The aim of the PIRUS2 Project is to enable publishers, repositories and other organizations to generate and share authoritative, trustworthy usage statistics for the individual articles and other items that they host. v1.2.0 is COUNTER R5 compliant.</description>
   <requirements>Requires 3.2.3 for TRIGGER and COUNTER robots list.</requirements>
   <home_page>http://github.com/eprintsug/irus</home_page>
   <icon>images/epm/icon_irus.png</icon>

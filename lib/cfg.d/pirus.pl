@@ -69,9 +69,9 @@ require LWP::UserAgent;
 require LWP::ConnCache;
 
 # modify the following URL to the PIRUS tracker location
-$c->{pirus}->{tracker} = "https://jusp.jisc.ac.uk/counter/";
+$c->{pirus}->{tracker} = "https://irus.jisc.ac.uk/counter/";
 # during testing (or on a test server), the following should be used:
-#$c->{pirus}->{tracker} = "https://jusp.jisc.ac.uk/testcounter/";
+#$c->{pirus}->{tracker} = "https://irus.jisc.ac.uk/counter/test/";
 
 # you may want to revise the settings for the user agent e.g. increase or
 # decrease the network timeout
