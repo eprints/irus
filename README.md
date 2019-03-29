@@ -1,6 +1,9 @@
 # PIRUS 'PUSH' implementation
 
+
 UPDATE March 2019: The default URL used by this code has been updated to https://irus.jisc.ac.uk/counter/.
+
+If you are looking for a version of this plugin that *does* have the latest IRUS tracker URL, but *doesn't* have the counter R5 updates see https://github.com/eprintsug/irus/tree/irus-jisc-ac-uk
 
 Provide data for [COUNTER R5](https://www.projectcounter.org/code-of-practice-five-sections/abstract/) compliant usage statistics.
 
