@@ -47,6 +47,10 @@ Or:
 
 =head2 Changes
 
+1.05 Sebastien Francois <sf2@ecs.soton.ac.uk>
+
+Conform to 2014 guidelines (see Event::PIRUS.pm)
+
 1.02 Justin Bradley <jb4@ecs.soton.ac.uk>
 
 Compatibility fixes for 3.2.
@@ -65,8 +69,9 @@ require LWP::UserAgent;
 require LWP::ConnCache;
 
 # modify the following URL to the PIRUS tracker location
-#$c->{pirus}->{tracker} = "http://cclibweb-4.dmz.cranfield.ac.uk/tracker/";
-$c->{pirus}->{tracker} = "http://www.jusp.mimas.ac.uk/counter/";
+$c->{pirus}->{tracker} = "https://irus.jisc.ac.uk/counter/";
+# during testing (or on a test server), the following should be used:
+#$c->{pirus}->{tracker} = "https://irus.jisc.ac.uk/counter/test/";
 
 # you may want to revise the settings for the user agent e.g. increase or
 # decrease the network timeout
